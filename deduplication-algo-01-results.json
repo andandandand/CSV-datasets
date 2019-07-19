@@ -1,0 +1,19 @@
+{
+	"problem" : "image_deduplication",
+	"train_dataset_url" : "https://raw.githubusercontent.com/andandandand/HTG-ImageSimilarityResearch/master/grid_labels_image_pairs.csv",
+	"nrows_train" : "5000" , 
+	"train_dataset_md5" : "abcwhateverx9012",
+	"test_dataset_url" : "https://raw.githubusercontent.com/andandandand/HTG-ImageSimilarityResearch/master/grid_labels_image_pairs.csv",
+	"nrows_test": "200",
+	"test_dataset_md5" : "https://raw.githubusercontent.com/andandandand/HTG-ImageSimilarityResearch/master/grid_labels_image_pairs.csv",
+	"algorithm_description" : "Duplicates are pairs of images with Hamming distance below or equal to 8",
+	"script_url": "https://github.com/andandandand/HTG-ImageSimilarityResearch/blob/master/F1_and_recall_of_duplication_types_according_to_DCT_phash_(results_summary_notebook).ipynb",
+	"script_md5": "d50aa28d132ab06ea196d4dcdba76",
+	"f1":"0.80",
+	"precision":"0.99",
+	"recall":"0.7",
+	"tps":"2000",
+	"fps":"500",
+	"tns":"2000",
+	"fns":"500"
+} 
